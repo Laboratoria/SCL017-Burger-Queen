@@ -431,7 +431,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 ## 4. Consideraciones generales
 
-Este proyecto se debe "resolver" de forma individual.
+Este proyecto se debe "resolver" de forma individual o en duplas.
 
 Trabaja en una historia hasta terminarla antes de pasar a la siguiente. Trabaja
 hasta la historia que puedas en el tiempo especificado.
