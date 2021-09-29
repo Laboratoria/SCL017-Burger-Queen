@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.backgroundHome{
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 834px;
+  height: 1194px;
+} 
+
+.imgButtonMesa{
+  width: 250px;
+  height: 250px;
+  border-radius: 500px;
+}
