@@ -1,6 +1,6 @@
-import React, {  useState, useEffect } from 'react'
+import React from 'react'
 
-export default function Kitchen(){
+export default function Cocina(){
     return (
         <div className='home'>
             <div className='backgroundHome' style={{
