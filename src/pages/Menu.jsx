@@ -1,5 +1,4 @@
-import { render } from '@testing-library/react';
-import { useEffect, useState, ReactDOM} from 'react/cjs/react.development';
+import { useEffect, useState} from 'react/cjs/react.development';
 import Products from '../Components/Products';
 
 function Menu(){
@@ -7,7 +6,7 @@ function Menu(){
 
     const [products, setProducts] = useState([]);
 
-    const initialUrl = './src/ApiBq/db.json/productos';
+    const initialUrl = 'http://localhost:3000/productos/';
     const fetchProducts = (url) => {
     
     fetch(url)

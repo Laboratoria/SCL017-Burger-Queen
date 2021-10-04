@@ -1,5 +1,6 @@
-import React from 'react'
-// import { Input} from 'reactstrap'
+import React from 'react' 
+import '../Styles/Home.css' //
+
 import { Link } from 'react-router-dom'
 
 export default function Home() {
@@ -11,7 +12,7 @@ export default function Home() {
         }}>
       </div>
       <Link to='/Mesas'>
-        <button>MESERO
+        <button border className='buttonHome' >MESERO
         <img className='imgButtonMesa' 
         src={'http://imgfz.com/i/E0y1PFv.jpeg'}
         alt='boton de MESERO'/>

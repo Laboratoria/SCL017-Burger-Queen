@@ -1,24 +1,28 @@
 
  import { Link } from 'react-router-dom'
+ import '../Styles/Mesas.css'
 
 
 export default function Mesas() {
   
   return (
-    <div className='home'>
-    <div className='backgroundHome' style={{
+    <div className='tables'>
+    <div className='backgroundTables' style={{
     backgroundImage: 
-         `url(http://imgfz.com/i/17quPTL.png)`
+         `url(http://imgfz.com/i/j9qENpQ.png)`
     }}>
-    </div>       
-    <Link to='/Menu'>
+      <container className='containerTables'>
+      <Link to='/Menu'>
         {/* <button>
         <img className='mesas' 
         src={'http://imgfz.com/i/TJNjD5z.png'}
         alt='mesa'/>
       </button> */}
       <button>Soy una mesa</button> 
-    </Link>   
+    </Link> 
+      </container>
+    </div>       
+     
 </div> 
   )
 }
