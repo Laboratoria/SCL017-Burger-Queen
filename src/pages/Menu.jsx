@@ -7,7 +7,7 @@ function Menu(){
 
     const [products, setProducts] = useState([]);
 
-    const initialUrl = 'http://localhost:3000/productos';
+    const initialUrl = './src/ApiBq/db.json/productos';
     const fetchProducts = (url) => {
     
     fetch(url)
