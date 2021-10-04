@@ -1,4 +1,5 @@
 import React from 'react'
+import '../Styles/Home.css'
 // import { Input} from 'reactstrap'
 import { Link } from 'react-router-dom'
 
@@ -7,24 +8,27 @@ export default function Home() {
     <div className='home'>
      <div className='backgroundHome' style={{
         backgroundImage: 
-          `url(http://imgfz.com/i/KG8zNFx.png)`,
+          `url(http://imgfz.com/i/nVlDHwG.png)`,
         }}>
       </div>
+      <div className='HomeButtons'>
       <Link to='/Mesas'>
-        <button>MESERO
+        <button
+          border-radius= '100px'
+        >
         <img className='imgButtonMesa' 
-        src={'http://imgfz.com/i/E0y1PFv.jpeg'}
+        src={'http://imgfz.com/i/opKvJtk.jpeg'}
         alt='boton de MESERO'/>
       </button>
     </Link>   
     <Link to='/Cocina'>
-        <button>MESERO
+        <button>
         <img className='imgButtonMesa' 
-        src={'http://imgfz.com/i/E0y1PFv.jpeg'}
-        alt='boton de MESERO'/>
+        src={'http://imgfz.com/i/2N9x57J.jpeg'}
+        alt='boton de COCINA'/>
       </button>
     </Link>   
-
+    </div>
 
 
    </div>
