@@ -1,0 +1,119 @@
+{ 
+    "productos": [
+    {
+     "id": 1,
+     "image": "https://placeralplato.com/files/2015/06/pizza-Margarita-640x480.jpg?width=1200&enable=upscale",
+     "name": "Pizza margarita",
+     "price": 8990,
+     "descripcion": "pizza a la piedra, con queso fundido, tomate cherry y albahaca",
+     "category": "comida"
+     },
+
+    {
+     "id": 2,
+     "image": "https://www.deliciosi.com/images/2700/2768/papas-r%C3%BAsticas.jpg",
+     "name": "Papas rústicas supremas",
+     "price": 6990,
+     "descripcion": "papas rusticas con queso cheedar y champi",
+     "category": "comida"
+    },
+
+    {
+    "id": 3,
+    "image": "http://imgfz.com/i/tYl0JV1.png",
+    "name": "Nachos con guacamole",
+    "price": 4990,
+    "descripcion": "nachos caseros con guacamole, receta original",
+    "category": "comida"
+    },
+
+    {
+    "id": 4,
+    "image": "http://imgfz.com/i/5rfjKzN.png",
+    "name": "Hamburguesa campestre",
+    "price": 5990,
+    "descripcion": "hamburguesa de garbanzos, lechuga, tomate, aros de cebolla morada y salsa de ajo en pan frica",
+    "category": "comida"
+    },
+ 
+    {
+    "id": 5,
+    "image": "http://imgfz.com/i/ljx3UBY.png",
+    "name": "Tacos Trilogía",
+    "price": 6990,
+    "descripcion": "taco con verduras asadas y seitan, taco con verduras frescas y soya, taco con seitan queso aros de cebolla mas salsas",
+    "category": "comida"
+    },
+
+    {
+    "id": 6,
+    "image": "http://imgfz.com/i/04rSQfE.png",
+    "name": "Tabla mixta",
+    "price": 7990,
+    "descripcion": "falafel, tortillas caseras, salsas, pebre de la casa",
+    "category": "comida"
+    },
+
+    {
+    "id": 7,
+    "image": "http://imgfz.com/i/tTMxqoL.png",
+    "name": "Jugo natural",
+    "price": 2690,
+    "descripcion": "jugo de pulpa natural",
+    "category": "bebidas"
+    },
+
+    {
+    "id": 8,
+    "image": "http://imgfz.com/i/Ck0yxcv.png",
+    "name": "Cerveza negra",
+    "price": 3600,
+    "descripcion": "cerveza lager artesanal",
+    "category": "bebidas"
+    },
+
+    {
+    "id": 9,
+    "image": "http://imgfz.com/i/Zd1SBbK.png",
+    "name": "Cerveza rubia",
+    "price": 3600,
+    "descripcion": "cerveza amber ale",
+    "category": "bebidas"
+    },
+
+    {
+    "id": 10,
+    "image": "http://imgfz.com/i/YXnzZUr.png",
+    "name": "Tequila margarita",
+    "price": 3800,
+    "descripcion": "tequila margarita",
+    "category": "bebidas"
+    },
+
+    {
+    "id": 11,
+    "image": "http://imgfz.com/i/JEbk59x.png",
+    "name": "Pisco Sour",
+    "price": 3800,
+    "descripcion": "pisco sour",
+    "category": "bebidas"
+    },
+
+    {
+    "id": 12,
+    "image": "http://imgfz.com/i/3ac0luz.jpeg",
+    "name": "Promo 1",
+    "price": 10200,
+    "descripcion": "dos Shop mas porcion de papas grande",
+    "category": "promo"
+    },
+    
+    {
+    "id": 12,
+    "image": "http://imgfz.com/i/G4Xx3fC.jpeg",
+    "name": "Promo 2",
+    "price": 12600,
+    "descripcion": "dos hamburguesas mas dos shop",
+    "category": "promo"
+    }]
+}
