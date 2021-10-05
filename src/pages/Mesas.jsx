@@ -11,7 +11,7 @@ export default function Mesas() {
     backgroundImage: 
          `url(http://imgfz.com/i/j9qENpQ.png)`
     }}>
-      <container className='containerTables'>
+      <div className='containerTables'>
       <Link to='/Menu'>
         {/* <button>
         <img className='mesas' 
@@ -20,7 +20,7 @@ export default function Mesas() {
       </button> */}
       <button>Soy una mesa</button> 
     </Link> 
-      </container>
+      </div>
     </div>       
      
 </div> 

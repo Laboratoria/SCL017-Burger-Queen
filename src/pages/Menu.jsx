@@ -1,24 +1,27 @@
 import { useEffect, useState} from 'react/cjs/react.development';
 import Products from '../Components/Products';
 
+
 function Menu(){
     
 
     const [products, setProducts] = useState([]);
 
-    const initialUrl = 'http://localhost:3000/productos/';
+   
+    const initialUrl = `${process.env.PUBLIC_URL}/db.json`;
+
     const fetchProducts = (url) => {
     
-    fetch(url)
-        .then(response => response.json())
-        .then(data =>  setProducts(data))
-        .catch(error => console.log(error)) 
+        fetch(url)
+            .then(response => response.json())
+            .then(data =>  setProducts(data.productos))
+            .catch(error => console.log(error)) 
     };
 
-        useEffect(()=> {
-            fetchProducts(initialUrl);
-        }, [])
-       
+    useEffect(()=> {
+        fetchProducts(initialUrl);
+    },)
+
 
     return (
         <div>
