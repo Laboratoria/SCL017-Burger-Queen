@@ -1,0 +1,71 @@
+{ 
+    "productos": [
+    {
+     "id": 1,
+     "image": "https://placeralplato.com/files/2015/06/pizza-Margarita-640x480.jpg?width=1200&enable=upscale",
+     "name": "pizza margarita",
+     "price": 8.990,
+     "descripcion": "pizza a la piedra, con queso fundido, tomate cherry y pina",
+     "category": 1
+     },
+
+    {
+     "id": 2,
+     "image": "https://www.deliciosi.com/images/2700/2768/papas-r%C3%BAsticas.jpg",
+     "name": "papas rusticas",
+     "price": 8990,
+     "descripcion": "papas rusticas con queso cheedar y champi",
+     "category": 1
+    },
+    {
+        "id": 1,
+        "image": "https://placeralplato.com/files/2015/06/pizza-Margarita-640x480.jpg?width=1200&enable=upscale",
+        "name": "pizza margarita",
+        "price": 8.990,
+        "descripcion": "pizza a la piedra, con queso fundido, tomate cherry y pina",
+        "category": 1
+        },
+   
+       {
+        "id": 2,
+        "image": "https://www.deliciosi.com/images/2700/2768/papas-r%C3%BAsticas.jpg",
+        "name": "papas rusticas",
+        "price": 8.990,
+        "descripcion": "papas rusticas con queso cheedar y champi",
+        "category": 1
+       },
+       {
+        "id": 1,
+        "image": "https://placeralplato.com/files/2015/06/pizza-Margarita-640x480.jpg?width=1200&enable=upscale",
+        "name": "pizza margarita",
+        "price": 8990,
+        "descripcion": "pizza a la piedra, con queso fundido, tomate cherry y pina",
+        "category": 1
+        },
+   
+       {
+        "id": 2,
+        "image": "https://www.deliciosi.com/images/2700/2768/papas-r%C3%BAsticas.jpg",
+        "name": "papas rusticas",
+        "price": 8990,
+        "descripcion": "papas rusticas con queso cheedar y champi",
+        "category": 1
+       },
+       {
+        "id": 2,
+        "image": "https://www.deliciosi.com/images/2700/2768/papas-r%C3%BAsticas.jpg",
+        "name": "papas rusticas",
+        "price": 8990,
+        "descripcion": "papas rusticas con queso cheedar y champi",
+        "category": 1
+       },
+       {
+        "id": 2,
+        "image": "https://www.deliciosi.com/images/2700/2768/papas-r%C3%BAsticas.jpg",
+        "name": "papas rusticas",
+        "price": 8990,
+        "descripcion": "papas rusticas con queso cheedar y champi",
+        "category": 1
+       }
+    ]
+}
