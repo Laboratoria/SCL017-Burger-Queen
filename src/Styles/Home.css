@@ -22,12 +22,12 @@
 .imgButtonMesa{
     width: 250px;
     height: 250px;
-    border-radius: 500px;
+    border-radius: 250px;
   }
 
-button{
+.buttonHome{
     border: none;
     width: 250px;
     height: 250px;
-    border-radius: 250px;
+    border-radius: 500px;
   }

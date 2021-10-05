@@ -13,7 +13,7 @@ export default function Home() {
       </div>
       <div className='HomeButtons'>
       <Link to='/Mesas'>
-        <button
+        <button className='buttonHome'
           border-radius= '100px'
         >
         <img className='imgButtonMesa' 
@@ -22,7 +22,7 @@ export default function Home() {
       </button>
     </Link>   
     <Link to='/Cocina'>
-        <button>
+        <button className='buttonHome'>
         <img className='imgButtonMesa' 
         src={'http://imgfz.com/i/2N9x57J.jpeg'}
         alt='boton de COCINA'/>
