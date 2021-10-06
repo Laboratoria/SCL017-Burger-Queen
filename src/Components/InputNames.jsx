@@ -9,16 +9,13 @@ export default function InputNames(){
         const toggleDropDown = () => setDropdownOpen(!dropdownOpen);
       
     return (
-      <Row xs='10'>
-        
+   
           <InputGroup>
-            <Col xs='10'>
+       
               <Input placeholder="Ingresa tu nombre"/>
-            </Col>
-          <Col xs='7'>
+
             <Input placeholder="Nº Mesa" />
-          </Col> 
-          <Col>
+        
             <InputGroupButtonDropdown addonType="append" isOpen={dropdownOpen} toggle={toggleDropDown}>
             <DropdownToggle caret>
               MESAS
@@ -31,8 +28,7 @@ export default function InputNames(){
               <DropdownItem>Mesa 5</DropdownItem>
             </DropdownMenu>
           </InputGroupButtonDropdown>
-          </Col>
+       
         </InputGroup>
-        
-      </Row>
+     
     )}

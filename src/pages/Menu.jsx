@@ -29,11 +29,11 @@ function Menu(){
 
     return (
         <div>
-            <Row xs='2'>
-                <Col>
+            <Row xs="3">
+                <Col xs="8">
                     <div className="containerProducts">
-                    <Categories/>
-                        <Products products={products}/>
+                        <Categories/>
+                        <Products className= "grid" products={products}/>
                     </div>
                 </Col>
                 <Col>
