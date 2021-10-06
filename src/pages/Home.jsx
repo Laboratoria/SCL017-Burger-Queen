@@ -8,7 +8,7 @@ export default function Home() {
   <div className='backgroundHome' 
   style={{ backgroundImage: `url(http://imgfz.com/i/nVlDHwG.png)`, }}> 
   </div> <div className='HomeButtons'> 
-  <Link to='/Mesas'> 
+  <Link to='/Menu'> 
   <button className='buttonHome' border-radius= '100px' > 
   <img className='imgButtonMesa' src={'http://imgfz.com/i/opKvJtk.jpeg'} alt='boton de MESERO'/> 
   </button> 

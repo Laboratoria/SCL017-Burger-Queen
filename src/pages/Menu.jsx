@@ -1,5 +1,9 @@
 import { useEffect, useState} from 'react/cjs/react.development';
+import { Col, Row, Container} from 'reactstrap';
+import Categories from '../Components/Categories';
+import OrderNav from '../Components/InputNames';
 import Products from '../Components/Products';
+import '../Styles/Menu.css' 
 
 
 function Menu(){
@@ -25,7 +29,22 @@ function Menu(){
 
     return (
         <div>
-          <Products products={products}/>
+            <Row xs="3">
+                <Col xs="8">
+                    <div className="containerProducts">
+                        <Categories/>
+                        <Products className= "grid" products={products}/>
+                    </div>
+                </Col>
+                <Col>
+                    <Container>
+                        <h1>Pedido Actual</h1>
+                        <OrderNav/>
+                        <p>Resumen Orden</p>
+                    </Container>
+                </Col>
+                
+            </Row>
         </div>
             
         );
