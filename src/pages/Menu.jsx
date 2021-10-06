@@ -28,23 +28,17 @@ function Menu(){
 
 
     return (
-        <div>
-            <Row xs="3">
-                <Col xs="8">
-                    <div className="containerProducts">
-                        <Categories/>
-                        <Products className= "grid" products={products}/>
-                    </div>
-                </Col>
-                <Col>
-                    <Container>
-                        <h1>Pedido Actual</h1>
-                        <OrderNav/>
-                        <p>Resumen Orden</p>
-                    </Container>
-                </Col>
-                
-            </Row>
+        <div className="MenuPage">
+           
+            <div className="containerProducts">
+                  <Categories/>
+                  <Products products={products}/>
+            </div>
+            <div className="containerPedidos">
+                   <h1>Pedido Actual</h1>
+                   <OrderNav/>
+                   <p>Resumen Orden</p>
+            </div>         
         </div>
             
         );

@@ -1,3 +1,26 @@
+.MenuPage{
+    display: flex;
+    flex-direction: row;
+}  
+
 .containerProducts{
+    display: flex;
+    flex-direction: column;
     background-color: #6c757d;
+    width: 85%;
+
 }
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+} 
+
+.boxCard{
+    margin: 10px;
+    width: 8rem;
+    height: 10rem;
+}
+
+
