@@ -2,7 +2,8 @@
 import React from "react"
 import { Card, CardBody, CardImg, CardTitle, CardSubtitle, Button } from 'reactstrap'
 
-export default function Products({products = []}){
+export default function Comida({products = []}){
+
 
   const renderCard = (item, index) => {
     return ( 
@@ -21,10 +22,6 @@ export default function Products({products = []}){
           return <div className="cards">
                     <p>COMIDA</p>
                     {products.filter(products => products.category==="comida").map(renderCard)}
-                    <p>BEBIDA</p>
-                    {products.filter(products => products.category==="bebidas").map(renderCard)}
-                    <p>PROMOS</p>
-                    {products.filter(products => products.category==="promo").map(renderCard)}
                   </div>
 
      }

@@ -1,13 +1,14 @@
 import { useEffect, useState} from 'react/cjs/react.development';
-import { Col, Row, Container} from 'reactstrap';
+import Bebidas from '../Components/Bebidas';
 import Categories from '../Components/Categories';
+import Comida from '../Components/Comida';
 import OrderNav from '../Components/InputNames';
-import Products from '../Components/Products';
+
+import Promo from '../Components/Promo';
 import '../Styles/Menu.css' 
 
 
 function Menu(){
-    
 
     const [products, setProducts] = useState([]);
 
@@ -32,7 +33,9 @@ function Menu(){
            
             <div className="containerProducts">
                   <Categories/>
-                  <Products products={products}/>
+                  <Comida products={products}/>
+                  <Bebidas products={products}/>
+                  <Promo products={products}/>
             </div>
             <div className="containerPedidos">
                    <h1>Pedido Actual</h1>

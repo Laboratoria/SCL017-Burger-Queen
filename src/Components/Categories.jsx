@@ -1,9 +1,13 @@
+
 import React from 'react'
 import { Button, ButtonGroup} from 'reactstrap'
 
 
+
 export default function Categories(){
-    return (
+   
+
+return (
         
         <ButtonGroup>
             <Button>COMIDA</Button>
@@ -11,4 +15,6 @@ export default function Categories(){
             <Button>BEBIDAS</Button>
       </ButtonGroup>
       
-    )}
+    )
+
+}
