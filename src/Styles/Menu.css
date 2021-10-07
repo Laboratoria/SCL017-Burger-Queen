@@ -6,8 +6,8 @@
 .containerProducts{
     display: flex;
     flex-direction: column;
-    background-color: #6c757d;
-    width: 85%;
+    background-color: #4e5053;
+    width: 95%;
 
 }
 
@@ -20,7 +20,16 @@
 .boxCard{
     margin: 10px;
     width: 8rem;
-    height: 10rem;
+    height: 13rem;
+    border-radius: 35px;
 }
 
+.imgCard{
+    margin-left: 6px;
+    margin-top: 10px;
+}
+
+.cardBody{
+    line-height: 0.9; 
+}
 
