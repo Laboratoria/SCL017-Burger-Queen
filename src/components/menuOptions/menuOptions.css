@@ -1,0 +1,19 @@
+.menuOptions{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+   /*  display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+}
+
+
+.card-header{
+    font-size: 16px;
+}
+
+.card-body {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-size: 14px;
+}
