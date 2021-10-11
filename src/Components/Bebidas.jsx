@@ -7,14 +7,15 @@ export default function Bebidas({products = []}){
 
   const renderCard = (item, index) => {
     return ( 
-                 <Card className="boxCard" key={index}>
-                  <CardImg className="imgCard" src={item.image} alt="Card image cap" style={{width: "100px", height:"100px"}}/>
-                  <CardBody>
-                    <CardTitle tag="h5">{item.name}</CardTitle>
-                    <CardSubtitle tag="h6" className="mb-2 text-muted">$ {item.price}</CardSubtitle> 
-                    <Button>Agregar</Button>
-                  </CardBody>
-                  </Card>
+            <button key={index}>
+            <Card className="boxCard" key={index} style={{padding: '5px'}}>
+            <CardImg className="imgCard" src={item.image} alt="Card image cap" style={{width: "100px", height:"100px"}}/>
+            <CardBody className="cardBody" style={{padding: '7px'}}>
+              <CardTitle tag="h6">{item.name}</CardTitle>
+              <CardSubtitle tag="p" className="mb-2 text-muted">$ {item.price}</CardSubtitle> 
+            </CardBody>
+            </Card>
+            </button>
                 
   
                 )

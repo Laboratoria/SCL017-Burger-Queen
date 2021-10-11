@@ -1,20 +1,21 @@
+import React from "react";
+import { Button, ButtonGroup } from "reactstrap";
+import Comida from "./FoodList";
 
-import React from 'react'
-import { Button, ButtonGroup} from 'reactstrap'
+export default function Categories({ comida = [] }) {
+  const renderCard = () => {
+    return (
+      <div>
+        <Comida />
+      </div>
+    );
+  };
 
-
-
-export default function Categories(){
-   
-
-return (
-        
-        <ButtonGroup>
-            <Button>COMIDA</Button>
-            <Button>PROMOS</Button>
-            <Button>BEBIDAS</Button>
-      </ButtonGroup>
-      
-    )
-
+  return (
+    <ButtonGroup>
+      <Button onClick={renderCard}>COMIDA</Button>
+      <Button>PROMOS</Button>
+      <Button>BEBIDAS</Button>
+    </ButtonGroup>
+  );
 }

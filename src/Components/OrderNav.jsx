@@ -3,7 +3,7 @@ import { InputGroup, Input, InputGroupButtonDropdown, DropdownToggle, DropdownMe
 
 
 
-export default function InputNames(){
+export default function OrderNav(){
         const [dropdownOpen, setDropdownOpen] = useState(false);
       
         const toggleDropDown = () => setDropdownOpen(!dropdownOpen);
