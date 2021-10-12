@@ -6,7 +6,6 @@ export default function Products({
   orderProducts,
   setOrderProducts,
 }) {
-  console.log(products);
   return (
     <div className="cards">
       <div>
