@@ -1,23 +1,15 @@
 import './menuOptions.css'
 import React from 'react';
-import { Card, CardText, Button, CardImg, CardBody, CardHeader } from 'reactstrap';
-
+import Item from './item';
 
 const BreakfastMenu = (props) => {
-    const { menu } = props
+    const { menu, onAdd } = props
     return (
         <div className='breakfastMenu'>
             <h1>Opciones Desayuno</h1>
             <div className='menuOptions'>
-                {menu.breakfast.map((breakfastMenuItems) => (
-                    <Card key={breakfastMenuItems.id}>
-                        <CardImg></CardImg>
-                        <CardHeader>{breakfastMenuItems.name}</CardHeader>
-                        <CardBody>
-                            <CardText>Precio: ${breakfastMenuItems.price}</CardText>
-                            <Button>Agregar</Button>
-                        </CardBody>
-                    </Card>
+                {menu.breakfast.map((item) => (
+                    <Item key={item.id} item={item} onAdd={onAdd} />
                 ))}
             </div>
         </div>

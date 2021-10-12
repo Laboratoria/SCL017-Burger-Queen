@@ -11,10 +11,43 @@ import {
 	Route
 } from "react-router-dom";
 import data from './menu.json'
+import { useState } from 'react';
 
 
 const App = () => {
 	const menu = data;
+	const [cartItems, setCartItems] = useState([])
+
+	const onAdd = (item) => {
+		const exist = cartItems.find((x) => x.id === item.id)
+		if (exist) {
+			setCartItems(
+				cartItems.map((x) =>
+					x.id === item.id ? { ...exist, qty: exist.qty + 1 } : x
+				)
+			);
+		} else {
+			setCartItems([...cartItems, { ...item, qty: 1 }])
+		}
+	};
+
+	const onRemove = (item) =>{
+		const exist = cartItems.find((x) => x.id === item.id)
+		if(exist.qty === 1){
+			setCartItems(
+				cartItems.filter((x) =>
+					x.id !== item.id
+				)
+			);
+		}else{
+			setCartItems(
+				cartItems.map((x) =>
+					x.id === item.id ? { ...exist, qty: exist.qty - 1 } : x
+				)
+			);	
+		}
+	}
+
 	return (
 		<Router>
 			<div className="app">
@@ -28,14 +61,14 @@ const App = () => {
 					<Route exact path="/breakfastMenu">
 						<WaiterView />
 						<div className='menuOptionsAndOrder'>
-							<BreakfastMenu menu={menu} />
-							<Order />
+							<BreakfastMenu onAdd={onAdd} menu={menu} />
+							<Order onAdd={onAdd} onRemove={onRemove} cartItems={cartItems} />
 						</div>
 					</Route> <Route exact path="/lunchMenu">
 						<WaiterView />
 						<div className='menuOptionsAndOrder'>
-							<LunchMenu menu={menu} />
-							<Order />
+							<LunchMenu onAdd={onAdd} menu={menu} />
+							<Order onAdd={onAdd} onRemove={onRemove} cartItems={cartItems} />
 						</div>
 					</Route>
 					{/* <Route exact path="/kitchenView">

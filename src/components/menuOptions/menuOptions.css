@@ -1,5 +1,6 @@
+
 .menuOptions{
-    margin-top: 50px;
+    margin-top: 25px;
     display: grid;
     grid-template-columns: 33% 33% 33%;
    /*  display: flex;
@@ -7,13 +8,12 @@
     justify-content: center; */
 }
 
-
 .card-header{
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .card-body {
     display: grid;
     grid-template-columns: 50% 50%;
-    font-size: 0.9rem
+    font-size: 0.8rem
 }
