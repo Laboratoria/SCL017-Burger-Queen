@@ -8,7 +8,7 @@ import {
   DropdownItem,
 } from "reactstrap";
 
-export default function OrderNav() {
+export default function OrderForm() {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   const toggleDropDown = () => setDropdownOpen(!dropdownOpen);
