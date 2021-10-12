@@ -9,11 +9,11 @@
 
 
 .card-header{
-    font-size: 16px;
+    font-size: 1.1rem;
 }
 
 .card-body {
     display: grid;
     grid-template-columns: 50% 50%;
-    font-size: 14px;
+    font-size: 0.9rem
 }

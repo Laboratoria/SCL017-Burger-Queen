@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const WaiterView = () => {
 
     return (
-        <main>
+        <header>
             <p>Escoja tipo de menú</p>
             <Link  to='/breakfastMenu'>
                 <Button>Desayuno</Button>
@@ -14,7 +14,7 @@ const WaiterView = () => {
             <Link to='/lunchMenu'>
                 <Button>Almuerzos</Button>
             </Link>
-        </main>
+        </header>
     );
 }
 

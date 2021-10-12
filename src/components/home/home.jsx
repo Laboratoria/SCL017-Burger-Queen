@@ -8,7 +8,7 @@ const Home = () => {
 
     return (
         <>
-            <main>
+            <header>
                 <p>Escoja el tipo de usuario</p>
                 <Link to='/waiterView'>
                     <Button>Mesero</Button>
@@ -16,7 +16,7 @@ const Home = () => {
                 <Link to='/kitchenView'>
                     <Button disabled>Cocina</Button>
                 </Link>
-            </main>
+            </header>
         </>
     )
 }

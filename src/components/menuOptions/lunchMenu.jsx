@@ -1,7 +1,7 @@
 import './menuOptions.css'
 import React from 'react';
 import menu from '../../menu.json'
-import { Card, CardTitle, CardText, Button, CardImg, CardBody, CardHeader } from 'reactstrap';
+import { Card, CardText, Button, CardImg, CardBody, CardHeader } from 'reactstrap';
 
 
 const LunchMenu = () => {

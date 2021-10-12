@@ -1,4 +1,4 @@
-{
+const data = {
     "breakfast": [
         {
             "id": 1,
@@ -31,22 +31,22 @@
             "id": 5,
             "name": "Hamburguesa simple",
             "price": 10,
-            "type": [
+/*             "type": [
                 "Res",
                 "Pollo",
                 "Soya"
-              ],
+              ], */
             "img": ""
         },
         {
             "id": 6,
             "name": "Hamburguesa doble",
             "price": 15,
-            "type": [
+/*             "type": [
                 "Res",
                 "Pollo",
                 "Soya"
-              ],
+              ], */
             "img": ""
         },
         {
@@ -87,3 +87,4 @@
         }
     ]
 }
+export default data;
