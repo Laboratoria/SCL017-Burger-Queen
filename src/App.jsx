@@ -14,20 +14,3 @@ export default function App() {
     </Switch>
   ) 
 }
-
-
-
-
-// function App() {
-  //   return (
-  //     <div className="App">
-  //     <h1>Burger Queen</h1>
-  //     <Button outline color="primary">holi
-  //     </Button>
-  //     <Card>
-  //      <CardTitle>Titulo</CardTitle>
-  //      <CardText>body</CardText>
-  //     </Card>
-  //     </div>
-  //   );
-  // }
