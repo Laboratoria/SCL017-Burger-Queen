@@ -1,11 +1,10 @@
 import './menuOptions.css'
 import React from 'react';
-import menu from '../../menu.json'
 import { Card, CardText, Button, CardImg, CardBody, CardHeader } from 'reactstrap';
 
 
-const LunchMenu = () => {
-
+const LunchMenu = (props) => {
+    const { menu } = props;
     return (
         <div className='lunchMenu'>
             <h1>Opciones Almuerzo</h1>
@@ -26,3 +25,5 @@ const LunchMenu = () => {
 }
 
 export default LunchMenu
+
+

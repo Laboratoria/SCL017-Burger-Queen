@@ -10,9 +10,11 @@ import {
 	Switch,
 	Route
 } from "react-router-dom";
+import data from './menu.json'
 
 
 const App = () => {
+	const menu = data;
 	return (
 		<Router>
 			<div className="app">
@@ -26,18 +28,18 @@ const App = () => {
 					<Route exact path="/breakfastMenu">
 						<WaiterView />
 						<div className='menuOptionsAndOrder'>
-							<BreakfastMenu />
+							<BreakfastMenu menu={menu} />
 							<Order />
 						</div>
 					</Route> <Route exact path="/lunchMenu">
 						<WaiterView />
 						<div className='menuOptionsAndOrder'>
-							<LunchMenu />
+							<LunchMenu menu={menu} />
 							<Order />
 						</div>
 					</Route>
 					{/* <Route exact path="/kitchenView">
-					</Route> */}
+            </Route> */}
 				</Switch>
 			</div>
 		</Router>
