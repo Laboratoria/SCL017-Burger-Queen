@@ -1,4 +1,9 @@
 .rows {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 40% 30% 30%;
+}
+
+.buttonsDiv {
+    display: flex;
+    justify-content: space-around;
 }
