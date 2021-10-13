@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react/cjs/react.development";
 import Categories from "../Components/Categories";
 import OrderList from "../Components/OrderList";
-import OrderNav from "../Components/OrderNav";
+import OrderForm from "../Components/OrderForm";
 import Products from "../Components/Products";
 import "../Styles/Menu.css";
 
@@ -66,13 +66,12 @@ function Menu() {
       </div>
       <div className="containerPedidos">
         <h1>Pedido Actual</h1>
-        <OrderNav />
-        <p>Resumen orden</p>
+        <OrderForm />
+        <h3>Resumen orden</h3>
         <OrderList
           orderProducts={orderProducts}
           setOrderProducts={setOrderProducts}
         />
-        
       </div>
     </div>
   );

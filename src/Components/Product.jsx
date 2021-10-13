@@ -2,7 +2,7 @@ import { Card, CardImg, CardBody, CardTitle, CardSubtitle } from "reactstrap";
 
 const Product = ({ product, orderProducts, setOrderProducts }) => {
   const addProductToOrder = () => {
-    setOrderProducts([...orderProducts, product]);
+    setOrderProducts([...orderProducts, product, { quantity: 1 }]);
   };
 
   return (
