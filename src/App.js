@@ -48,6 +48,10 @@ const App = () => {
 		}
 	}
 
+	const removeAllItems = () => {
+		setCartItems([]);
+	  };
+
 	return (
 		<Router>
 			<div className="app">
@@ -62,13 +66,13 @@ const App = () => {
 						<WaiterView />
 						<div className='menuOptionsAndOrder'>
 							<BreakfastMenu onAdd={onAdd} menu={menu} />
-							<Order onAdd={onAdd} onRemove={onRemove} cartItems={cartItems} />
+							<Order onAdd={onAdd} onRemove={onRemove} cartItems={cartItems} removeAllItems={removeAllItems} />
 						</div>
 					</Route> <Route exact path="/lunchMenu">
 						<WaiterView />
 						<div className='menuOptionsAndOrder'>
 							<LunchMenu onAdd={onAdd} menu={menu} />
-							<Order onAdd={onAdd} onRemove={onRemove} cartItems={cartItems} />
+							<Order onAdd={onAdd} onRemove={onRemove} cartItems={cartItems} removeAllItems={removeAllItems}/>
 						</div>
 					</Route>
 					{/* <Route exact path="/kitchenView">
