@@ -4,6 +4,7 @@ import OrderList from "../Components/OrderList";
 import OrderForm from "../Components/OrderForm";
 import Products from "../Components/Products";
 import "../Styles/Menu.css";
+import ButtonSendOrderList from "../Components/ButtonSendOrderList";
 
 function Menu() {
   // const [products, setProducts] = useState([]);
@@ -72,6 +73,10 @@ function Menu() {
           orderProducts={orderProducts}
           setOrderProducts={setOrderProducts}
         />
+        <ButtonSendOrderList
+          orderProducts={orderProducts}
+          setOrderProducts={setOrderProducts}
+        ></ButtonSendOrderList>
       </div>
     </div>
   );
