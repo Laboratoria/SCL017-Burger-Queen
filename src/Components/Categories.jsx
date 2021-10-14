@@ -9,4 +9,3 @@ export default function Categories({ comida = [] }) {
       <Button>BEBIDAS</Button>
     </ButtonGroup>
   );
-}
