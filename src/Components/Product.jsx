@@ -8,14 +8,14 @@ const Product = ({ product, orderProducts, setOrderProducts }) => {
   return (
     <button
       onClick={addProductToOrder}
-      style={{ padding: "1px", marginTop: "4px" }}
+      style={{ margin: "10px", border: "none", background: "none" }}
     >
-      <Card className="boxCard" style={{ padding: "5px" }}>
+      <Card className="boxCard" style={{ padding: "5px", borderRadius: "8px" }}>
         <CardImg
           className="imgCard"
           src={product.image}
           alt="Card image cap"
-          style={{ width: "100px", height: "100px" }}
+          style={{ width: "100px", height: "100px", borderRadius: "8px" }}
         />
         <CardBody className="cardBody" style={{ padding: "7px" }}>
           <CardTitle tag="h6">{product.name}</CardTitle>

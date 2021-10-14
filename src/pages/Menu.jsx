@@ -36,11 +36,12 @@ function Menu() {
   }, [initialUrl]);
 
   return (
-    <div className="MenuPage">
+    <div className="MenuPage"
+    style={{ backgroundImage: `url(http://imgfz.com/i/TFLERC5.png)` }}>
       <div className="containerProducts">
         <Categories />
         <div>
-          <p>COMIDA</p>
+          <p className="categoryName">COMIDA</p>
           <Products
             products={food}
             orderProducts={orderProducts}
@@ -48,7 +49,7 @@ function Menu() {
           />
         </div>
         <div>
-          <p>BEBIDAS</p>
+          <p className="categoryName">BEBIDAS</p>
           <Products
             products={drink}
             orderProducts={orderProducts}
@@ -56,7 +57,7 @@ function Menu() {
           />
         </div>
         <div>
-          <p>PROMOS</p>
+          <p className="categoryName">PROMOS</p>
           <Products
             products={promo}
             orderProducts={orderProducts}

@@ -8,7 +8,7 @@ export default function Home() {
     <div className="home">
       <div
         className="backgroundHome"
-        style={{ backgroundImage: `url(http://imgfz.com/i/nVlDHwG.png)` }}
+        style={{ backgroundImage: `url(http://imgfz.com/i/GuvTU8j.png)` }}
       ></div>{" "}
       <div className="HomeButtons">
         <Link to="/Menu">

@@ -4,10 +4,10 @@ const OrderList = ({ orderProducts, setOrderProducts, quantity }) => {
   return (
     <div>
       {orderProducts.map((orderProduct) => (
-        <div>
-          <h5>{orderProduct.name}</h5>
+        <div className="orderList">
+          <h6>{orderProduct.name}</h6>
           <h6>{orderProduct.price}</h6>
-          <h6>{orderProduct.quantity}</h6>
+          {/* <h6>{orderProduct.quantity}</h6> */}
         </div>
       ))}
     </div>

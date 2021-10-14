@@ -14,16 +14,17 @@ export default function OrderForm() {
   const toggleDropDown = () => setDropdownOpen(!dropdownOpen);
 
   return (
-    <InputGroup>
-      <Input placeholder="Ingresa tu nombre" />
+    <InputGroup className="inputFormOrder">
+      <Input placeholder="Nombre de cliente" />
 
-      <Input placeholder="Nº Mesa" />
+      <Input placeholder="Nombre mesero/a" />
 
       <InputGroupButtonDropdown
         addonType="append"
         isOpen={dropdownOpen}
         toggle={toggleDropDown}
       >
+  
         <DropdownToggle caret>MESAS</DropdownToggle>
         <DropdownMenu>
           <DropdownItem>Mesa 1</DropdownItem>

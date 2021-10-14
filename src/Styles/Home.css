@@ -4,30 +4,31 @@
 }
 
 .backgroundHome{
-    background-repeat: no-repeat;
     background-size: cover;
-    width: 834px;
-    height: 1194px;
+    width: 100vw;
+    height: 100vh;
     position: fixed;
     z-index: -1;
   } 
 
 .HomeButtons{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 100%
+    flex-direction: column;
+    align-items: flex-end;
 }
   
 .imgButtonMesa{
-    width: 250px;
-    height: 250px;
-    border-radius: 250px;
+    width: 230px;
+    height: 230px;
+    border-radius: 230px;
   }
 
 .buttonHome {
     border: none;
-    width: 250px;
-    height: 250px;
+    width: 230px;
+    height: 230px;
     border-radius: 500px;
+    margin: 50px;
+    margin-top: 90px;
+    margin-right: 100px;
   }
