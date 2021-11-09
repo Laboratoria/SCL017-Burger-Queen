@@ -1,0 +1,10 @@
+{
+  "projects": {
+<<<<<<< HEAD
+    "Nati": "bq-commitbar"
+=======
+    "Pancha": "bq-commitbar"
+>>>>>>> refs/remotes/origin/main
+  },
+  "targets": {}
+}

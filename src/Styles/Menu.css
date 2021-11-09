@@ -1,0 +1,56 @@
+.MenuPage{
+    display: flex;
+    flex-direction: row;
+}  
+
+.containerProducts{
+    display: flex;
+    flex-direction: column;
+    width: 1100px
+
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 20px;
+} 
+
+.boxCard{
+    width: 130px;
+    height: 190px;
+    border-radius: 35px;
+}
+
+.imgCard{
+    margin-left: 6px;
+    margin-top: 10px;
+}
+
+.cardBody{
+    line-height: 0.9; 
+}
+
+.categoryName{
+ color: white;
+ font-size: 25px;
+ margin-left: 40px;
+ margin-top: 30px;
+}
+
+.containerPedidos{
+    background-color: white;
+    padding: 20px;
+}
+
+.orderList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputFormOrder{
+  margin-top: 15px;
+}

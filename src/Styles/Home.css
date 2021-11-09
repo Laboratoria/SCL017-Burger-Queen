@@ -1,0 +1,34 @@
+.home{
+    display: flex;
+    flex-direction: column
+}
+
+.backgroundHome{
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+  } 
+
+.HomeButtons{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+  
+.imgButtonMesa{
+    width: 230px;
+    height: 230px;
+    border-radius: 230px;
+  }
+
+.buttonHome {
+    border: none;
+    width: 230px;
+    height: 230px;
+    border-radius: 500px;
+    margin: 50px;
+    margin-top: 90px;
+    margin-right: 100px;
+  }
